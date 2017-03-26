@@ -1,0 +1,30 @@
+{
+  "name": "elm-loader",
+  "version": "0.1.0",
+  "description": "Webpack loader for Elm.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dividat/elm-loader.git"
+  },
+  "keywords": [
+    "elm",
+    "webpack",
+    "loader"
+  ],
+  "author": "Dividat GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dividat/elm-loader/issues"
+  },
+  "homepage": "https://github.com/dividat/elm-loader",
+  "dependencies": {
+    "glob": "^7.0.5",
+    "loader-utils": "^1.1.0",
+    "temp": "^0.8.3"
+  },
+  "devDependencies": {
+  }
+}
