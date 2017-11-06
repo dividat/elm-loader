@@ -35,7 +35,7 @@ function compile(input) {
         throw res.error;
     }
     if (res.status !== 0) {
-        throw new Error('elm-make exited with ' + code + '\n' + res.output);
+        throw new Error('elm-make exited with ' + res.status + '\n' + res.output);
     }
 
     const data = fs.readFileSync(outputFile);
